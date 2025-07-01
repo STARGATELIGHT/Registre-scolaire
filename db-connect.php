@@ -1,12 +1,12 @@
 <?php 
 // Hostname
-$host = "student-db.c7guqcykm4ba.eu-north-1.rds.amazonaws.com";
+$host = "replace with your actual end-point";
 // Username
-$uname = "admin";
+$uname = "your-admin-name";
 // Password
-$pw = "footballcupsworld";
+$pw = "your-passwd";
 // Database Name
-$dbname = "simple_attendance_db";
+$dbname = "your-db-name";
 
 try{
     $conn = new MySQLi($host, $uname, $pw, $dbname);
